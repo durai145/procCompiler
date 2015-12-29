@@ -1,0 +1,10 @@
+/tmp/ccbDz0Sb.o:ussora.c:(.text+0x226): undefined reference to `sqlcxt'
+/tmp/ccbDz0Sb.o:ussora.c:(.text+0x226): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `sqlcxt'
+/tmp/ccbDz0Sb.o:ussora.c:(.text+0x2ce): undefined reference to `sqlcxt'
+/tmp/ccbDz0Sb.o:ussora.c:(.text+0x2ce): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `sqlcxt'
+/tmp/ccbDz0Sb.o:ussora.c:(.rdata$.refptr.s02_orapwd[.refptr.s02_orapwd]+0x0): undefined reference to `s02_orapwd'
+/tmp/ccbDz0Sb.o:ussora.c:(.rdata$.refptr.s02_orauid[.refptr.s02_orauid]+0x0): undefined reference to `s02_orauid'
+/usr/lib/gcc/x86_64-pc-cygwin/4.9.3/../../../../lib/libcygwin.a(libcmain.o): In function `main':
+/usr/src/debug/cygwin-2.3.1-1/winsup/cygwin/lib/libcmain.c:39: undefined reference to `WinMain'
+/usr/src/debug/cygwin-2.3.1-1/winsup/cygwin/lib/libcmain.c:39:(.text.startup+0x7f): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `WinMain'
+collect2: error: ld returned 1 exit status

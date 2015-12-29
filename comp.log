@@ -1,0 +1,722 @@
+
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:3.2.2:  prompt the user for 'Do you want add the dependent Prpgram' 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:3.2.2:  prompt the user for 'Do you want add the dependent Prpgram' 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:3.2.2:  prompt the user for 'Do you want add the dependent Prpgram' 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:3.2.2:  prompt the user for 'Do you want add the dependent Prpgram' 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:3.2.2:  prompt the user for 'Do you want add the dependent Prpgram' 
+test1:A.004.01: strat read the config file 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:3.2.2:  prompt the user for 'Do you want add the dependent Prpgram' 
+test1:3.2.2.1  if user entered as 'Y' 
+test1:3.2.2.1.2  add the compiler version and os details 
+test1:3.2.2.1.2.1i while program name as entered exit get the file name 
+test1:3.2.2.1.2.1 get program name
+test1:3.2.2.1.2.1i    while program name as entered exit get the file name
+test1:3.2.2.1.2.1     get program name : inpFile <ussfns>
+test1:3.2.2.1.2.1     get program name : inpFile <[C[Dussfns.c>
+test1:3.2.2.1.2.1 get program name
+test1:3.2.2.1.2.1i    while program name as entered exit get the file name
+test1:3.2.2.1.2.1     get program name : inpFile <exit>
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <[C[Dussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <[C[Dussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include        -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include        -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include        -o ~/bin/test1 1>test1.log 2>test1.err 
+ussora:A.001:pgmTyp =<C>
+ussora:A.002: opening config file 
+ussora:A.003:  try to open cfgFileName:cfgFileName =<.ussora.cfg>
+ussora:3.2.2:  prompt the user for 'Do you want add the dependent Prpgram' 
+ussora:3.2.2.1  if user entered as 'Y' 
+ussora:3.2.2.1.2  add the compiler version and os details 
+ussora:3.2.2.1.2.1i while program name as entered exit get the file name 
+ussora:3.2.2.1.2.1 get program name
+ussora:3.2.2.1.2.1i    while program name as entered exit get the file name
+ussora:3.2.2.1.2.1     get program name : inpFile <ussfns.c>
+ussora:3.2.2.1.2.1 get program name
+ussora:3.2.2.1.2.1i    while program name as entered exit get the file name
+ussora:3.2.2.1.2.1     get program name : inpFile <exit>
+ussora:A.004.01: strat read the config file 
+ussora:A.004: Read  line from  config file  
+ussora:A.005:Frame the version string  
+ussora:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 WinCyg>  
+ussora:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 WinCyg>  
+ussora:A.004: Read  line from  config file  
+ussora:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+ussora:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+ussora:A.006.01:  tmpCfgFileNameBuff  <C> 
+ussora:A.007:final link string : userLink  < >  
+ gcc -m64  ussora.c   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include        -o ~/bin/ussora 1>ussora.log 2>ussora.err 
+ussora:A.001:pgmTyp =<C>
+ussora:A.002: opening config file 
+ussora:A.003:  try to open cfgFileName:cfgFileName =<.ussora.cfg>
+ussora:A.004: file pointer is not null 
+ussora:A.004.01: strat read the config file 
+ussora:A.004: Read  line from  config file  
+ussora:A.005:Frame the version string  
+ussora:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 WinCyg>  
+ussora:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 WinCyg>  
+ussora:A.004: Read  line from  config file  
+ussora:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+ussora:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+ussora:A.006.01:  tmpCfgFileNameBuff  <C> 
+ussora:A.007:final link string : userLink  < >  
+ gcc -m64  ussora.c   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include        -o ~/bin/ussora 1>ussora.log 2>ussora.err 
+ussora:A.001:pgmTyp =<C>
+ussora:A.002: opening config file 
+ussora:A.003:  try to open cfgFileName:cfgFileName =<.ussora.cfg>
+ussora:A.004: file pointer is not null 
+ussora:A.004.01: strat read the config file 
+ussora:A.004: Read  line from  config file  
+ussora:A.005:Frame the version string  
+ussora:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 WinCyg>  
+ussora:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 WinCyg>  
+ussora:A.004: Read  line from  config file  
+ussora:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+ussora:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+ussora:A.006.01:  tmpCfgFileNameBuff  <C> 
+ussora:A.007:final link string : userLink  < >  
+ gcc -m64  ussora.c   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include        -o ~/bin/ussora 1>ussora.log 2>ussora.err 
+ussora:A.001:pgmTyp =<C>
+ussora:A.002: opening config file 
+ussora:A.003:  try to open cfgFileName:cfgFileName =<.ussora.cfg>
+ussora:A.004: file pointer is not null 
+ussora:A.004.01: strat read the config file 
+ussora:A.004: Read  line from  config file  
+ussora:A.005:Frame the version string  
+ussora:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 WinCyg>  
+ussora:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 WinCyg>  
+ussora:A.004: Read  line from  config file  
+ussora:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+ussora:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+ussora:A.006.01:  tmpCfgFileNameBuff  <C> 
+ussora:A.007:final link string : userLink  < >  
+ gcc -m64  ussora.c   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include        -o ~/bin/ussora 1>ussora.log 2>ussora.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns C>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns C> 
+test1:A.006.01:  tmpCfgFileNameBuff  <C> 
+test1:A.007:final link string : userLink  < >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include        -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <3> cfgFileNameBuff  <ussora OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussora OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o   ~/obj/ussora.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c  ~/obj/ussfns.o   ~/obj/ussora.o   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include        -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <3> cfgFileNameBuff  <ussora OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussora OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o   ~/obj/ussora.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c  ~/obj/ussfns.o   ~/obj/ussora.o   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include        -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <3> cfgFileNameBuff  <ussora OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussora OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o   ~/obj/ussora.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c  ~/obj/ussfns.o   ~/obj/ussora.o   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include        -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <3> cfgFileNameBuff  <ussora OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussora OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o   ~/obj/ussora.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c  ~/obj/ussfns.o   ~/obj/ussora.o   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include        -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <3> cfgFileNameBuff  <ussora OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussora OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o   ~/obj/ussora.o  >  
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <3> cfgFileNameBuff  <ussora OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussora OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o   ~/obj/ussora.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c  ~/obj/ussfns.o   ~/obj/ussora.o   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include      -L/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/lib oraldapclnt12.lib    -o ~/bin/test1 1>test1.log 2>test1.err 
+comp:A.001:pgmTyp =<C>
+comp:A.002: opening config file 
+comp:A.003:  try to open cfgFileName:cfgFileName =<.comp.cfg>
+comp:3.2.2:  prompt the user for 'Do you want add the dependent Prpgram' 
+comp:A.004.01: strat read the config file 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <3> cfgFileNameBuff  <ussora OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussora OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o   ~/obj/ussora.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c  ~/obj/ussfns.o   ~/obj/ussora.o   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include      -L/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/lib -loraldapclnt12    -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c  ~/obj/ussfns.o   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include      -L/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/lib -loraldapclnt12    -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c  ~/obj/ussfns.o   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include      -L/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/lib -loraldapclnt12 -lpthread -lclntsh   -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c  ~/obj/ussfns.o   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include      -L/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/lib -loraldapclnt12 -lpthread -loracore12   -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o  >  
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c  ~/obj/ussfns.o   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include      -L/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/lib -loraldapclnt12 -lpthread -loracore12   -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c  ~/obj/ussfns.o   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include      -L/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/lib -loraldapclnt12 -lpthread -loracore12   -o ~/bin/test1 1>test1.log 2>test1.err 
+test1:A.001:pgmTyp =<PC>
+test1:A.002: opening config file 
+test1:A.003:  try to open cfgFileName:cfgFileName =<.test1.cfg>
+test1:A.004: file pointer is not null 
+test1:A.004.01: strat read the config file 
+test1:A.004: Read  line from  config file  
+test1:A.005:Frame the version string  
+test1:A.005.01:After Frame the version string:givnTmpVer <PC 1.0.0 WinCyg>  
+test1:A.005.02:before compare :cfgFileNameBuff <PC 1.0.0 WinCyg>  
+test1:A.004: Read  line from  config file  
+test1:A.006: parse the config file: line  <2> cfgFileNameBuff  <ussfns OBJ>  
+test1:A.006.01:  tmpCfgFileNameBuff  <ussfns OBJ> 
+test1:A.006.01:  tmpCfgFileNameBuff  <OBJ> 
+test1:A.007:final link string : userLink  < ~/obj/ussfns.o  >  
+ COMPMAIN002: process the PRO*C compilation  
+ cfgFileName= <.test1.cfg>
+ proc test1 include=$HOME/include 1> test1.proc 2>test1.err
+ gcc -m64  test1.c  ~/obj/ussfns.o   -I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include      -L/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/lib -loraldapclnt12 -lpthread -loracore12   -o ~/bin/test1 1>test1.log 2>test1.err 

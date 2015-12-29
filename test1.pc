@@ -1,0 +1,16 @@
+ #include <stdio.h>
+ #include "uss.h"
+ #include "sqlca.h"
+ 
+EXEC SQL BEGIN DECLARE SECTION; 
+VARCHAR bulb[1000];             
+VARCHAR unix_uid[20];           
+VARCHAR unix_pwd[20];           
+EXEC SQL END DECLARE SECTION;   
+int main ( int argc,char *argv[])
+{
+	printf("I am test\n");
+	
+	EXEC SQL CONNECT :unix_uid IDENTIFIED BY :unix_pwd;
+	return 0;
+}
