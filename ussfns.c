@@ -372,8 +372,8 @@ getarr()    /* This function loads the escape sequences into an array. Identifie
   char *tname, fname[150];
   int i;
   /* -- strcpy(fname,"/usr1/soft/install/unix_termseq"); --*/
-  strcpy(fname,"/cygdrive/c/Users/durai/Desktop/ubuntuUss12-master/mysql/unix_termseq");
-		printf( "/cygdrive/c/Users/durai/Desktop/ubuntuUss12-master/mysql/unix_termseq");
+  strcpy(fname,"/root/procCompiler/unix_termseq");
+		printf( "/root/procCompiler/unix_termseq");
   if ((fp = fopen(fname,"r")) == NULL) {
      printf("\nUnable to open %s file for reading. \n",fname);
      printf("Exiting ... \n");

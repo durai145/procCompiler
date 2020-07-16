@@ -20,7 +20,7 @@
  --*/
 #include "time.h"
 #include <string.h>
-#include <curses.h>
+#include "curses.h"
 int drawWin();
 
 
@@ -30,7 +30,8 @@ char tibcoInclude[1000]=" ";
 char sqlInclude[1000]="-I/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/precomp/public -I/cygdrive/c/app/oracle/include ";
 //char sqlLib[1000]=" -dynamic /usr/local/lib/libclntsh.dylib ";
 //char sqlLib[1000]="  -L/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/lib -loraldapclnt12 -lpthread -loracore12";
-char sqlLib[1000]="  -L/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/OCI/lib/MSVC -loci";
+//char sqlLib[1000]="  -L/cygdrive/c/app/oracle/product/12.1.0/dbhome_1/OCI/lib/MSVC -loci";
+char sqlLib[1000]=" ";
 char subPgmName[1000]=" ";
 char subPgmType[10]=" ";
 char tmpSubPgmType[100]=" ";
@@ -43,7 +44,7 @@ char inpFileTypes[10000];
 char userLink[10000];
 char logFileName[100];
 const char version[100] = "1.0.0";
-const char os[100] ="WinCyg";
+const char os[100] ="Linux";
 int rmEntrChr(char *inp);
 char* to_upper(char *inp);
 char * getLinkFiles(char * outFile, char * outFileExtn);
